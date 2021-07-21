@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MyShooting.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{B9D3B9CC-CAE4-442C-B75C-1F401F91ACD3}</UniqueIdentifier>
+      <UniqueIdentifier>{A8500429-03DD-4632-9C97-F87769F13148}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MyShooting.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{5D71F6F6-AF83-41F4-9559-C2AC540AEA51}</UniqueIdentifier>
+      <UniqueIdentifier>{8264E850-A448-4045-B2E5-79391B62148A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,29 +23,38 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\MyShooting">
-      <UniqueIdentifier>{12682B87-D880-484A-AEF4-3507F60B90A0}</UniqueIdentifier>
+      <UniqueIdentifier>{57CA6D72-5976-4407-B678-378FACEECC91}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MyShooting\MyShooting.Build.cs">
       <Filter>Source\MyShooting</Filter>
     </None>
-    <ClCompile Include="..\..\Source\MyShooting\MyShooting.cpp">
-      <Filter>Source\MyShooting</Filter>
+    <Filter Include="Source\MyShooting\Private">
+      <UniqueIdentifier>{3BD39B8A-4580-4719-B60B-FE3E41C9AD28}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MyShooting\Private\MyShooting.cpp">
+      <Filter>Source\MyShooting\Private</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\MyShooting\MyShooting.h">
-      <Filter>Source\MyShooting</Filter>
+    <ClCompile Include="..\..\Source\MyShooting\Private\MyShootingGameModeBase.cpp">
+      <Filter>Source\MyShooting\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyShooting\Private\PlayerMove.cpp">
+      <Filter>Source\MyShooting\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\MyShooting\Public">
+      <UniqueIdentifier>{70F1C2D1-7539-4303-8368-64B035E210A0}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\MyShooting\Public\MyShooting.h">
+      <Filter>Source\MyShooting\Public</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\MyShooting\MyShootingGameModeBase.cpp">
-      <Filter>Source\MyShooting</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\MyShooting\MyShootingGameModeBase.h">
-      <Filter>Source\MyShooting</Filter>
+    <ClInclude Include="..\..\Source\MyShooting\Public\MyShootingGameModeBase.h">
+      <Filter>Source\MyShooting\Public</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\MyShooting\PlayerMove.cpp">
-      <Filter>Source\MyShooting</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\MyShooting\PlayerMove.h">
-      <Filter>Source\MyShooting</Filter>
+    <ClInclude Include="..\..\Source\MyShooting\Public\PlayerMove.h">
+      <Filter>Source\MyShooting\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

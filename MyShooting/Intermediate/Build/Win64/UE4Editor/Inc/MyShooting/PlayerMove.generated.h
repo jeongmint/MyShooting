@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MYSHOOTING_PlayerMove_generated_h
 
-#define MyShooting_Source_MyShooting_PlayerMove_h_13_SPARSE_DATA
-#define MyShooting_Source_MyShooting_PlayerMove_h_13_RPC_WRAPPERS
-#define MyShooting_Source_MyShooting_PlayerMove_h_13_RPC_WRAPPERS_NO_PURE_DECLS
-#define MyShooting_Source_MyShooting_PlayerMove_h_13_INCLASS_NO_PURE_DECLS \
+#define MyShooting_Source_MyShooting_Public_PlayerMove_h_13_SPARSE_DATA
+#define MyShooting_Source_MyShooting_Public_PlayerMove_h_13_RPC_WRAPPERS
+#define MyShooting_Source_MyShooting_Public_PlayerMove_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define MyShooting_Source_MyShooting_Public_PlayerMove_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUPlayerMove(); \
 	friend struct Z_Construct_UClass_UPlayerMove_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(UPlayerMove)
 
 
-#define MyShooting_Source_MyShooting_PlayerMove_h_13_INCLASS \
+#define MyShooting_Source_MyShooting_Public_PlayerMove_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesUPlayerMove(); \
 	friend struct Z_Construct_UClass_UPlayerMove_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(UPlayerMove)
 
 
-#define MyShooting_Source_MyShooting_PlayerMove_h_13_STANDARD_CONSTRUCTORS \
+#define MyShooting_Source_MyShooting_Public_PlayerMove_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPlayerMove(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPlayerMove) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define MyShooting_Source_MyShooting_PlayerMove_h_13_ENHANCED_CONSTRUCTORS \
+#define MyShooting_Source_MyShooting_Public_PlayerMove_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UPlayerMove(UPlayerMove&&); \
@@ -58,28 +58,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPlayerMove); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UPlayerMove)
 
 
-#define MyShooting_Source_MyShooting_PlayerMove_h_13_PRIVATE_PROPERTY_OFFSET
-#define MyShooting_Source_MyShooting_PlayerMove_h_10_PROLOG
-#define MyShooting_Source_MyShooting_PlayerMove_h_13_GENERATED_BODY_LEGACY \
+#define MyShooting_Source_MyShooting_Public_PlayerMove_h_13_PRIVATE_PROPERTY_OFFSET
+#define MyShooting_Source_MyShooting_Public_PlayerMove_h_10_PROLOG
+#define MyShooting_Source_MyShooting_Public_PlayerMove_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MyShooting_Source_MyShooting_PlayerMove_h_13_PRIVATE_PROPERTY_OFFSET \
-	MyShooting_Source_MyShooting_PlayerMove_h_13_SPARSE_DATA \
-	MyShooting_Source_MyShooting_PlayerMove_h_13_RPC_WRAPPERS \
-	MyShooting_Source_MyShooting_PlayerMove_h_13_INCLASS \
-	MyShooting_Source_MyShooting_PlayerMove_h_13_STANDARD_CONSTRUCTORS \
+	MyShooting_Source_MyShooting_Public_PlayerMove_h_13_PRIVATE_PROPERTY_OFFSET \
+	MyShooting_Source_MyShooting_Public_PlayerMove_h_13_SPARSE_DATA \
+	MyShooting_Source_MyShooting_Public_PlayerMove_h_13_RPC_WRAPPERS \
+	MyShooting_Source_MyShooting_Public_PlayerMove_h_13_INCLASS \
+	MyShooting_Source_MyShooting_Public_PlayerMove_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define MyShooting_Source_MyShooting_PlayerMove_h_13_GENERATED_BODY \
+#define MyShooting_Source_MyShooting_Public_PlayerMove_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MyShooting_Source_MyShooting_PlayerMove_h_13_PRIVATE_PROPERTY_OFFSET \
-	MyShooting_Source_MyShooting_PlayerMove_h_13_SPARSE_DATA \
-	MyShooting_Source_MyShooting_PlayerMove_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	MyShooting_Source_MyShooting_PlayerMove_h_13_INCLASS_NO_PURE_DECLS \
-	MyShooting_Source_MyShooting_PlayerMove_h_13_ENHANCED_CONSTRUCTORS \
+	MyShooting_Source_MyShooting_Public_PlayerMove_h_13_PRIVATE_PROPERTY_OFFSET \
+	MyShooting_Source_MyShooting_Public_PlayerMove_h_13_SPARSE_DATA \
+	MyShooting_Source_MyShooting_Public_PlayerMove_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	MyShooting_Source_MyShooting_Public_PlayerMove_h_13_INCLASS_NO_PURE_DECLS \
+	MyShooting_Source_MyShooting_Public_PlayerMove_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -87,7 +87,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> MYSHOOTING_API UClass* StaticClass<class UPlayerMove>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID MyShooting_Source_MyShooting_PlayerMove_h
+#define CURRENT_FILE_ID MyShooting_Source_MyShooting_Public_PlayerMove_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

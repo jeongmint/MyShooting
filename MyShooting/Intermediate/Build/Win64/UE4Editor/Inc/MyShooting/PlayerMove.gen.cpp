@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "MyShooting/PlayerMove.h"
+#include "MyShooting/Public/PlayerMove.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -43,7 +43,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerMove() {}
 		{ "BlueprintSpawnableComponent", "" },
 		{ "ClassGroupNames", "Custom" },
 		{ "IncludePath", "PlayerMove.h" },
-		{ "ModuleRelativePath", "PlayerMove.h" },
+		{ "ModuleRelativePath", "Public/PlayerMove.h" },
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UPlayerMove_Statics::StaticCppClassTypeInfo = {
@@ -73,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerMove() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UPlayerMove, 427276570);
+	IMPLEMENT_CLASS(UPlayerMove, 4119384922);
 	template<> MYSHOOTING_API UClass* StaticClass<UPlayerMove>()
 	{
 		return UPlayerMove::StaticClass();

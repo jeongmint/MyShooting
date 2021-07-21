@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\Unreal Projects\\MyShooting\\MyShooting\\MyShooting\\Source\\MyShooting\\MyShooting.Build.cs",
-		"D:\\Unreal Projects\\MyShooting\\MyShooting\\MyShooting\\Source\\MyShooting.Target.cs",
-		"D:\\Unreal Projects\\MyShooting\\MyShooting\\MyShooting\\Source\\MyShootingEditor.Target.cs"
+		"D:\\Unreal Projects\\MyShooting\\MyShooting\\Source\\MyShooting\\MyShooting.Build.cs",
+		"D:\\Unreal Projects\\MyShooting\\MyShooting\\Source\\MyShooting.Target.cs",
+		"D:\\Unreal Projects\\MyShooting\\MyShooting\\Source\\MyShootingEditor.Target.cs"
 	],
 	"EngineVersion": "4.26.2"
 }
