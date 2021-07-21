@@ -266,7 +266,7 @@
 /FI"D:\Unreal Projects\MyShooting\MyShooting\Intermediate\Build\Win64\MyShootingEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
 /Yu"D:\Unreal Projects\MyShooting\MyShooting\Intermediate\Build\Win64\MyShootingEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
 /Fp"D:\Unreal Projects\MyShooting\MyShooting\Intermediate\Build\Win64\MyShootingEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"D:\Unreal Projects\MyShooting\MyShooting\Source\MyShooting\MyShootingGameModeBase.cpp"
+"D:\Unreal Projects\MyShooting\MyShooting\Source\MyShooting\Private\MyShootingGameModeBase.cpp"
 /FI"D:\Unreal Projects\MyShooting\MyShooting\Intermediate\Build\Win64\UE4Editor\Development\MyShooting\Definitions.MyShooting.h"
 /Fo"D:\Unreal Projects\MyShooting\MyShooting\Intermediate\Build\Win64\UE4Editor\Development\MyShooting\MyShootingGameModeBase.cpp.obj"
 /TP

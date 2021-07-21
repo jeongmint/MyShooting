@@ -1,7 +1,11 @@
 D:\Unreal Projects\MyShooting\MyShooting\Intermediate\Build\Win64\UE4Editor\Development\MyShooting\Definitions.MyShooting.h
-D:\Unreal Projects\MyShooting\MyShooting\Source\MyShooting\MyShootingGameModeBase.h
+D:\Unreal Projects\MyShooting\MyShooting\Source\MyShooting\Public\MyShootingGameModeBase.h
 D:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 D:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 D:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 D:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
 D:\Unreal Projects\MyShooting\MyShooting\Intermediate\Build\Win64\UE4Editor\Inc\MyShooting\MyShootingGameModeBase.generated.h
+D:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
+D:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+D:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+D:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h

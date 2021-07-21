@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MyShooting.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{A8500429-03DD-4632-9C97-F87769F13148}</UniqueIdentifier>
+      <UniqueIdentifier>{37F3DEB2-EBB5-4E4A-9723-17183857D8A6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MyShooting.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{8264E850-A448-4045-B2E5-79391B62148A}</UniqueIdentifier>
+      <UniqueIdentifier>{FB25FA7A-E7BD-448F-8B4A-03B979BDF3B6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,13 +27,13 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\MyShooting">
-      <UniqueIdentifier>{57CA6D72-5976-4407-B678-378FACEECC91}</UniqueIdentifier>
+      <UniqueIdentifier>{F41EED8E-F153-4224-A5F0-D99AD8E93856}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MyShooting\MyShooting.Build.cs">
       <Filter>Source\MyShooting</Filter>
     </None>
     <Filter Include="Source\MyShooting\Private">
-      <UniqueIdentifier>{3BD39B8A-4580-4719-B60B-FE3E41C9AD28}</UniqueIdentifier>
+      <UniqueIdentifier>{19C449D7-6601-4C28-B7CE-7504D761ACF9}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MyShooting\Private\MyShooting.cpp">
       <Filter>Source\MyShooting\Private</Filter>
@@ -44,8 +44,11 @@
     <ClCompile Include="..\..\Source\MyShooting\Private\PlayerMove.cpp">
       <Filter>Source\MyShooting\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\MyShooting\Private\ShootPlayer.cpp">
+      <Filter>Source\MyShooting\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\MyShooting\Public">
-      <UniqueIdentifier>{70F1C2D1-7539-4303-8368-64B035E210A0}</UniqueIdentifier>
+      <UniqueIdentifier>{D8A3BDA3-3598-46D9-97B1-775439DF1286}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\MyShooting\Public\MyShooting.h">
       <Filter>Source\MyShooting\Public</Filter>
@@ -54,6 +57,9 @@
       <Filter>Source\MyShooting\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\MyShooting\Public\PlayerMove.h">
+      <Filter>Source\MyShooting\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyShooting\Public\ShootPlayer.h">
       <Filter>Source\MyShooting\Public</Filter>
     </ClInclude>
   </ItemGroup>

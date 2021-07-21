@@ -58,7 +58,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPlayerMove); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UPlayerMove)
 
 
-#define MyShooting_Source_MyShooting_Public_PlayerMove_h_13_PRIVATE_PROPERTY_OFFSET
+#define MyShooting_Source_MyShooting_Public_PlayerMove_h_13_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__me() { return STRUCT_OFFSET(UPlayerMove, me); }
+
+
 #define MyShooting_Source_MyShooting_Public_PlayerMove_h_10_PROLOG
 #define MyShooting_Source_MyShooting_Public_PlayerMove_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

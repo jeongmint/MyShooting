@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "MyShooting/MyShootingGameModeBase.h"
+#include "MyShooting/Public/MyShootingGameModeBase.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -43,7 +43,7 @@ void EmptyLinkFunctionForGeneratedCodeMyShootingGameModeBase() {}
 		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering Utilities|Transformation" },
 		{ "IncludePath", "MyShootingGameModeBase.h" },
-		{ "ModuleRelativePath", "MyShootingGameModeBase.h" },
+		{ "ModuleRelativePath", "Public/MyShootingGameModeBase.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
@@ -74,7 +74,7 @@ void EmptyLinkFunctionForGeneratedCodeMyShootingGameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyShootingGameModeBase, 399299404);
+	IMPLEMENT_CLASS(AMyShootingGameModeBase, 3820983090);
 	template<> MYSHOOTING_API UClass* StaticClass<AMyShootingGameModeBase>()
 	{
 		return AMyShootingGameModeBase::StaticClass();
