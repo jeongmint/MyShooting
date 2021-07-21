@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MyShooting",
+			"Path": "D:\\Unreal Projects\\MyShooting\\MyShooting\\MyShooting\\Source\\MyShooting.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MyShootingEditor",
+			"Path": "D:\\Unreal Projects\\MyShooting\\MyShooting\\MyShooting\\Source\\MyShootingEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
