@@ -1870,3 +1870,230 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.07.21-23.43.11:235][710]LogSlate: Window 'Project Settings' being destroyed
 [2021.07.21-23.43.11:315][710]LogSlate: Window 'Project Settings' being destroyed
 [2021.07.21-23.43.16:588][917]LogUObjectHash: Compacting FUObjectHashTables data took   5.19ms
+[2021.07.21-23.46.54:036][404]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.21-23.46.54:109][404]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.21-23.46.54:109][404]PIE: New page: PIE session: ShootingMap (Jul 22, 2021, 5:46:54 PM)
+[2021.07.21-23.46.54:110][404]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ShootingMap
+[2021.07.21-23.46.54:117][404]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006884s)
+[2021.07.21-23.46.54:122][404]LogAIModule: Creating AISystem for world ShootingMap
+[2021.07.21-23.46.54:124][404]LogPlayLevel: PIE: World Init took: (0.006316s)
+[2021.07.21-23.46.54:124][404]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ShootingMap.ShootingMap to /Game/Maps/UEDPIE_0_ShootingMap.ShootingMap (0.013942s)
+[2021.07.21-23.46.54:218][404]LogUObjectHash: Compacting FUObjectHashTables data took  13.33ms
+[2021.07.21-23.46.54:224][404]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2021.07.21-23.46.54:224][404]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.21-23.46.54:224][404]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.21-23.46.54:225][404]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.21-23.46.54:225][404]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.21-23.46.54:225][404]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.21-23.46.54:225][404]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.21-23.46.54:225][404]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.21-23.46.54:225][404]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.21-23.46.54:227][404]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.21-23.46.54:227][404]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.21-23.46.54:332][404]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.21-23.46.54:332][404]LogAudioMixer: Display: 1: FrontRight
+[2021.07.21-23.46.54:467][404]LogAudioMixer: Display: Using Audio Device 스피커(CLOVA-BROWN-8CD Stereo)
+[2021.07.21-23.46.54:468][404]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.21-23.46.54:469][404]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.21-23.46.54:469][404]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.21-23.46.54:471][404]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.21-23.46.54:471][404]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.21-23.46.54:471][404]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.21-23.46.54:552][404]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.21-23.46.54:552][404]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.21-23.46.54:552][404]LogInit: FAudioDevice initialized.
+[2021.07.21-23.46.54:552][404]LogAudio: Display: Audio Device (ID: 10) registered with world 'ShootingMap'.
+[2021.07.21-23.46.54:578][404]LogLoad: Game class is 'BP_GameMode_C'
+[2021.07.21-23.46.54:583][404]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ShootingMap.ShootingMap up for play (max tick rate 0) at 2021.07.22-08.46.54
+[2021.07.21-23.46.54:584][404]LogWorld: Bringing up level for play took: 0.002735
+[2021.07.21-23.46.54:584][404]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2021.07.21-23.46.54:592][404]PIE: Server logged in
+[2021.07.21-23.46.54:594][404]PIE: Play in editor total start time 0.529 seconds.
+[2021.07.21-23.46.57:962][581]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.21-23.46.57:963][581]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ShootingMap
+[2021.07.21-23.46.57:963][581]LogWorld: UWorld::CleanupWorld for ShootingMap, bSessionEnded=true, bCleanupResources=true
+[2021.07.21-23.46.57:964][581]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.21-23.46.57:992][581]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.21-23.46.58:032][581]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.21-23.46.58:087][581]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.21-23.46.58:088][581]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.21-23.46.58:091][581]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.21-23.46.58:158][581]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.21-23.46.58:167][581]LogUObjectHash: Compacting FUObjectHashTables data took   6.62ms
+[2021.07.21-23.46.58:234][582]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2021.07.21-23.47.00:443][677]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.21-23.47.00:466][677]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.21-23.47.00:467][677]PIE: New page: PIE session: ShootingMap (Jul 22, 2021, 5:47:00 PM)
+[2021.07.21-23.47.00:488][677]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ShootingMap
+[2021.07.21-23.47.00:492][677]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003493s)
+[2021.07.21-23.47.00:495][677]LogAIModule: Creating AISystem for world ShootingMap
+[2021.07.21-23.47.00:495][677]LogPlayLevel: PIE: World Init took: (0.003127s)
+[2021.07.21-23.47.00:495][677]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ShootingMap.ShootingMap to /Game/Maps/UEDPIE_0_ShootingMap.ShootingMap (0.007136s)
+[2021.07.21-23.47.00:548][677]LogUObjectHash: Compacting FUObjectHashTables data took   5.94ms
+[2021.07.21-23.47.00:549][677]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2021.07.21-23.47.00:550][677]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.21-23.47.00:550][677]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.21-23.47.00:550][677]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.21-23.47.00:550][677]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.21-23.47.00:550][677]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.21-23.47.00:550][677]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.21-23.47.00:550][677]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.21-23.47.00:550][677]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.21-23.47.00:551][677]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.21-23.47.00:551][677]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.21-23.47.00:603][677]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.21-23.47.00:604][677]LogAudioMixer: Display: 1: FrontRight
+[2021.07.21-23.47.00:674][677]LogAudioMixer: Display: Using Audio Device 스피커(CLOVA-BROWN-8CD Stereo)
+[2021.07.21-23.47.00:675][677]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.21-23.47.00:675][677]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.21-23.47.00:675][677]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.21-23.47.00:676][677]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.21-23.47.00:676][677]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.21-23.47.00:676][677]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.21-23.47.00:725][677]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.21-23.47.00:725][677]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.21-23.47.00:725][677]LogInit: FAudioDevice initialized.
+[2021.07.21-23.47.00:725][677]LogAudio: Display: Audio Device (ID: 11) registered with world 'ShootingMap'.
+[2021.07.21-23.47.00:740][677]LogLoad: Game class is 'BP_GameMode_C'
+[2021.07.21-23.47.00:742][677]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ShootingMap.ShootingMap up for play (max tick rate 0) at 2021.07.22-08.47.00
+[2021.07.21-23.47.00:743][677]LogWorld: Bringing up level for play took: 0.001186
+[2021.07.21-23.47.00:743][677]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2021.07.21-23.47.00:748][677]PIE: Server logged in
+[2021.07.21-23.47.00:750][677]PIE: Play in editor total start time 0.292 seconds.
+[2021.07.21-23.47.05:087][ 41]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.21-23.47.05:088][ 41]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ShootingMap
+[2021.07.21-23.47.05:088][ 41]LogWorld: UWorld::CleanupWorld for ShootingMap, bSessionEnded=true, bCleanupResources=true
+[2021.07.21-23.47.05:088][ 41]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.21-23.47.05:113][ 41]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.21-23.47.05:143][ 41]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.21-23.47.05:191][ 41]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.21-23.47.05:191][ 41]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.21-23.47.05:194][ 41]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.21-23.47.05:269][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   9.80ms
+[2021.07.21-23.47.05:338][ 42]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2021.07.21-23.53.47:056][448]BlueprintLog: New page: Compile BP_GameMode
+[2021.07.21-23.53.47:124][448]LogUObjectHash: Compacting FUObjectHashTables data took   4.78ms
+[2021.07.21-23.53.49:044][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_GameMode" FILE="../../../../../../Unreal Projects/MyShooting/MyShooting/Content/Blueprints/BP_GameMode.uasset" SILENT=true
+[2021.07.21-23.53.49:079][553]LogSavePackage: Moving '../../../../../../Unreal Projects/MyShooting/MyShooting/Saved/BP_GameMode80AF9CAB42A1D3907DE4DA962010437F.tmp' to '../../../../../../Unreal Projects/MyShooting/MyShooting/Content/Blueprints/BP_GameMode.uasset'
+[2021.07.21-23.53.49:177][553]AssetCheck: New page: Asset Save: BP_GameMode
+[2021.07.21-23.53.49:179][553]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_GameMode.BP_GameMode
+[2021.07.21-23.53.50:105][624]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.07.21-23.53.50:105][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.21-23.54.07:231][682]LogRenderer: Reallocating scene render targets to support 1016x692 Format 10 NumSamples 1 (Frame:2240).
+[2021.07.21-23.54.08:341][682]LogRenderer: Reallocating scene render targets to support 1020x692 Format 10 NumSamples 1 (Frame:2242).
+[2021.07.21-23.54.10:870][824]BlueprintLog: New page: Compile BP_Player
+[2021.07.21-23.54.11:004][824]LogUObjectHash: Compacting FUObjectHashTables data took  10.87ms
+[2021.07.21-23.54.11:693][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../../Unreal Projects/MyShooting/MyShooting/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2021.07.21-23.54.11:727][858]LogSavePackage: Moving '../../../../../../Unreal Projects/MyShooting/MyShooting/Saved/BP_PlayerDC8620F649B88B4F8B0B0BA61EDCEAC2.tmp' to '../../../../../../Unreal Projects/MyShooting/MyShooting/Content/Blueprints/BP_Player.uasset'
+[2021.07.21-23.54.11:783][858]AssetCheck: New page: Asset Save: BP_Player
+[2021.07.21-23.54.11:784][858]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2021.07.21-23.54.21:760][ 99]LogRenderer: Reallocating scene render targets to support 1044x692 Format 10 NumSamples 1 (Frame:66749).
+[2021.07.21-23.54.25:242][267]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/Unreal Projects/MyShooting/MyShooting/Source/MyShooting/Public/ShootPlayer.h'
+[2021.07.21-23.54.25:244][267]LogVSAccessor: Warning: Couldn't open file 'D:/Unreal Projects/MyShooting/MyShooting/Source/MyShooting/Private/ShootPlayer.cpp'.
+[2021.07.21-23.54.51:233][390]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2021.07.21-23.54.51:241][390]LogSavePackage: Moving '../../../../../../Unreal Projects/MyShooting/MyShooting/Saved/ShootingMap_Auto35CC6002744BFB73FA9F96FBF35737175.tmp' to '../../../../../../Unreal Projects/MyShooting/MyShooting/Saved/Autosaves/Game/Maps/ShootingMap_Auto3.umap'
+[2021.07.21-23.54.51:243][390]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ShootingMap' took 0.032
+[2021.07.21-23.54.51:243][390]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.032
+[2021.07.21-23.59.06:756][921]LogSlate: Window 'Source Control Login' being destroyed
+[2021.07.21-23.59.09:430][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   5.43ms
+[2021.07.21-23.59.12:109][ 75]LogSlate: Window 'Delete Assets' being destroyed
+[2021.07.21-23.59.12:211][ 75]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.07.21-23.59.12:211][ 75]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.07.21-23.59.12:211][ 75]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.21-23.59.12:286][ 75]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprints/BP_Player.BP_Player
+[2021.07.21-23.59.12:679][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2021.07.21-23.59.12:731][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2021.07.21-23.59.12:755][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2021.07.21-23.59.12:777][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2021.07.21-23.59.47:112][851]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2021.07.21-23.59.48:038][851]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2021.07.21-23.59.54:537][115]BlueprintLog: New page: Compile BP_Player
+[2021.07.21-23.59.54:619][115]LogUObjectHash: Compacting FUObjectHashTables data took   7.92ms
+[2021.07.22-00.00.02:794][439]BlueprintLog: New page: Compile BP_Player
+[2021.07.22-00.00.02:846][439]LogUObjectHash: Compacting FUObjectHashTables data took   4.68ms
+[2021.07.22-00.00.03:445][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../../Unreal Projects/MyShooting/MyShooting/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2021.07.22-00.00.03:476][464]LogSavePackage: Moving '../../../../../../Unreal Projects/MyShooting/MyShooting/Saved/BP_Player1C07D0964202AAB2522B54BD0EE88582.tmp' to '../../../../../../Unreal Projects/MyShooting/MyShooting/Content/Blueprints/BP_Player.uasset'
+[2021.07.22-00.00.03:523][464]AssetCheck: New page: Asset Save: BP_Player
+[2021.07.22-00.00.03:523][464]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2021.07.22-00.00.25:868][112]LogSlate: Window 'BP_Player' being destroyed
+[2021.07.22-00.00.25:971][112]LogSlate: Window 'BP_Player' being destroyed
+[2021.07.22-00.00.25:982][112]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.07.22-00.00.25:982][112]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.22-00.00.32:130][346]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.07.22-00.00.35:485][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ShootingMap" FILE="../../../../../../Unreal Projects/MyShooting/MyShooting/Content/Maps/ShootingMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.07.22-00.00.35:526][488]LogUObjectHash: Compacting FUObjectHashTables data took   6.39ms
+[2021.07.22-00.00.35:541][488]LogSavePackage: Moving '../../../../../../Unreal Projects/MyShooting/MyShooting/Saved/ShootingMapF8E6DD5B4CFDC72637B67A9CC9070A09.tmp' to '../../../../../../Unreal Projects/MyShooting/MyShooting/Content/Maps/ShootingMap.umap'
+[2021.07.22-00.00.35:785][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ShootingMap_BuiltData" FILE="../../../../../../Unreal Projects/MyShooting/MyShooting/Content/Maps/ShootingMap_BuiltData.uasset" SILENT=true
+[2021.07.22-00.00.35:789][488]LogSavePackage: Moving '../../../../../../Unreal Projects/MyShooting/MyShooting/Saved/ShootingMap_BuiltDataB9F3BEDE4D3AECB66D272EB90F51BD91.tmp' to '../../../../../../Unreal Projects/MyShooting/MyShooting/Content/Maps/ShootingMap_BuiltData.uasset'
+[2021.07.22-00.00.35:882][488]AssetCheck: New page: Asset Save: multiple assets
+[2021.07.22-00.00.35:882][488]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/ShootingMap_BuiltData.ShootingMap_BuiltData
+[2021.07.22-00.00.35:882][488]LogContentValidation: Display: Validating World /Game/Maps/ShootingMap.ShootingMap
+[2021.07.22-00.00.38:288][561]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2021.07.22-00.00.38:332][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_GameMode" FILE="../../../../../../Unreal Projects/MyShooting/MyShooting/Content/Blueprints/BP_GameMode.uasset" SILENT=true
+[2021.07.22-00.00.38:342][561]LogSavePackage: Moving '../../../../../../Unreal Projects/MyShooting/MyShooting/Saved/BP_GameMode03687F754F18B760DD3FB78666D05A8A.tmp' to '../../../../../../Unreal Projects/MyShooting/MyShooting/Content/Blueprints/BP_GameMode.uasset'
+[2021.07.22-00.00.38:372][561]AssetCheck: New page: Asset Save: BP_GameMode
+[2021.07.22-00.00.38:372][561]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_GameMode.BP_GameMode
+[2021.07.22-00.01.05:075][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ShootingMap" FILE="../../../../../../Unreal Projects/MyShooting/MyShooting/Content/Maps/ShootingMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.07.22-00.01.05:129][968]LogUObjectHash: Compacting FUObjectHashTables data took   8.26ms
+[2021.07.22-00.01.05:158][968]LogSavePackage: Moving '../../../../../../Unreal Projects/MyShooting/MyShooting/Saved/ShootingMap1FFC31BE4D1B6F90FF1CDF83BE7A38B5.tmp' to '../../../../../../Unreal Projects/MyShooting/MyShooting/Content/Maps/ShootingMap.umap'
+[2021.07.22-00.01.05:179][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ShootingMap_BuiltData" FILE="../../../../../../Unreal Projects/MyShooting/MyShooting/Content/Maps/ShootingMap_BuiltData.uasset" SILENT=true
+[2021.07.22-00.01.05:185][968]LogSavePackage: Moving '../../../../../../Unreal Projects/MyShooting/MyShooting/Saved/ShootingMap_BuiltData82A7A4DA431BD4C3A643869F05D0937B.tmp' to '../../../../../../Unreal Projects/MyShooting/MyShooting/Content/Maps/ShootingMap_BuiltData.uasset'
+[2021.07.22-00.01.05:283][968]AssetCheck: New page: Asset Save: multiple assets
+[2021.07.22-00.01.05:283][968]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/ShootingMap_BuiltData.ShootingMap_BuiltData
+[2021.07.22-00.01.05:284][968]LogContentValidation: Display: Validating World /Game/Maps/ShootingMap.ShootingMap
+[2021.07.22-00.01.07:385][ 89]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.22-00.01.07:434][ 89]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.22-00.01.07:434][ 89]PIE: New page: PIE session: ShootingMap (Jul 22, 2021, 6:01:07 PM)
+[2021.07.22-00.01.07:435][ 89]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ShootingMap
+[2021.07.22-00.01.07:441][ 89]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005843s)
+[2021.07.22-00.01.07:445][ 89]LogAIModule: Creating AISystem for world ShootingMap
+[2021.07.22-00.01.07:446][ 89]LogPlayLevel: PIE: World Init took: (0.004837s)
+[2021.07.22-00.01.07:446][ 89]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ShootingMap.ShootingMap to /Game/Maps/UEDPIE_0_ShootingMap.ShootingMap (0.011384s)
+[2021.07.22-00.01.07:523][ 89]LogUObjectHash: Compacting FUObjectHashTables data took  15.28ms
+[2021.07.22-00.01.07:527][ 89]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2021.07.22-00.01.07:527][ 89]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.22-00.01.07:527][ 89]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.22-00.01.07:527][ 89]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.22-00.01.07:528][ 89]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.22-00.01.07:528][ 89]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.22-00.01.07:528][ 89]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.22-00.01.07:528][ 89]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.22-00.01.07:528][ 89]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.22-00.01.07:531][ 89]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.22-00.01.07:531][ 89]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.22-00.01.07:698][ 89]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.22-00.01.07:699][ 89]LogAudioMixer: Display: 1: FrontRight
+[2021.07.22-00.01.07:871][ 89]LogAudioMixer: Display: Using Audio Device 스피커(CLOVA-BROWN-8CD Stereo)
+[2021.07.22-00.01.07:871][ 89]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.22-00.01.07:872][ 89]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.22-00.01.07:872][ 89]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.22-00.01.07:873][ 89]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.22-00.01.07:873][ 89]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.22-00.01.07:874][ 89]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.22-00.01.07:970][ 89]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.22-00.01.07:971][ 89]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.22-00.01.07:971][ 89]LogInit: FAudioDevice initialized.
+[2021.07.22-00.01.07:971][ 89]LogAudio: Display: Audio Device (ID: 12) registered with world 'ShootingMap'.
+[2021.07.22-00.01.08:006][ 89]LogLoad: Game class is 'BP_GameMode_C'
+[2021.07.22-00.01.08:011][ 89]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ShootingMap.ShootingMap up for play (max tick rate 0) at 2021.07.22-09.01.08
+[2021.07.22-00.01.08:012][ 89]LogWorld: Bringing up level for play took: 0.002677
+[2021.07.22-00.01.08:013][ 89]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2021.07.22-00.01.08:023][ 89]PIE: Server logged in
+[2021.07.22-00.01.08:026][ 89]PIE: Play in editor total start time 0.615 seconds.
+[2021.07.22-00.01.11:959][359]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.22-00.01.11:959][359]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ShootingMap
+[2021.07.22-00.01.11:960][359]LogWorld: UWorld::CleanupWorld for ShootingMap, bSessionEnded=true, bCleanupResources=true
+[2021.07.22-00.01.11:960][359]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.22-00.01.12:001][359]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.22-00.01.12:065][359]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.22-00.01.12:129][359]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.22-00.01.12:129][359]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.22-00.01.12:135][359]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.22-00.01.12:267][359]LogUObjectHash: Compacting FUObjectHashTables data took  12.33ms
+[2021.07.22-00.01.12:402][360]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2021.07.22-00.01.31:704][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   7.51ms
+[2021.07.22-00.01.31:764][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_GameMode" FILE="../../../../../../Unreal Projects/MyShooting/MyShooting/Content/Blueprints/BP_GameMode.uasset" SILENT=true
+[2021.07.22-00.01.31:782][ 74]LogSavePackage: Moving '../../../../../../Unreal Projects/MyShooting/MyShooting/Saved/BP_GameMode2C76CCDE4C103115881EEEACF04D0A97.tmp' to '../../../../../../Unreal Projects/MyShooting/MyShooting/Content/Blueprints/BP_GameMode.uasset'
+[2021.07.22-00.01.31:844][ 74]AssetCheck: New page: Asset Save: BP_GameMode
+[2021.07.22-00.01.31:844][ 74]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_GameMode.BP_GameMode

@@ -2,6 +2,8 @@
 
 
 #include "ShootPlayer.h"
+#include "MyShooting.h"
+#include "PlayerMove.h"
 
 // Sets default values
 AShootPlayer::AShootPlayer()

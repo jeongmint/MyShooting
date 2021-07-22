@@ -1,11 +1,8 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\MyShooting).
-  Parsing headers for MyShootingEditor
-    Running UnrealHeaderTool "D:\Unreal Projects\MyShooting\MyShooting\MyShooting.uproject" "D:\Unreal Projects\MyShooting\MyShooting\Intermediate\Build\Win64\MyShootingEditor\Development\MyShootingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\최정민\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for MyShootingEditor in 24.8889033 seconds
   Building MyShootingEditor...
   Using Visual Studio 2019 14.28.29914 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 8 actions with 16 processes...
-    [1/8] PlayerMove.cpp
+  Building 4 actions with 16 processes...
+    [1/4] PlayerMove.cpp
 D:\Unreal Projects\MyShooting\MyShooting\Source\MyShooting\Private\PlayerMove.cpp(32): error C3158: 'SetupPlayerInputComponent': 'override'은(는) 가상 멤버 함수에만 사용할 수 있습니다.
 D:\Unreal Projects\MyShooting\MyShooting\Source\MyShooting\Private\PlayerMove.cpp(32): error C2575: 'SetupPlayerInputComponent': 멤버 함수와 기본만 virtual일 수 있습니다.
 D:\Unreal Projects\MyShooting\MyShooting\Source\MyShooting\Private\PlayerMove.cpp(44): error C4458: 'me' 선언은 클래스 멤버를 숨깁니다.
@@ -14,21 +11,4 @@ D:\Unreal Projects\MyShooting\MyShooting\Source\MyShooting\Private\PlayerMove.cp
     D:\Unreal Projects\MyShooting\MyShooting\Source\MyShooting\Public\PlayerMove.h(43): note: 'AShootPlayer' 선언을 참조하십시오.
 D:\Unreal Projects\MyShooting\MyShooting\Source\MyShooting\Private\PlayerMove.cpp(51): error C2027: 정의되지 않은 형식 'AShootPlayer'을(를) 사용했습니다.
     D:\Unreal Projects\MyShooting\MyShooting\Source\MyShooting\Public\PlayerMove.h(43): note: 'AShootPlayer' 선언을 참조하십시오.
-    [2/8] ShootPlayer.cpp
-D:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/Object.h(107): error C2027: 정의되지 않은 형식 'UPlayerMove'을(를) 사용했습니다.
-    D:\Unreal Projects\MyShooting\MyShooting\Source\MyShooting\Public\ShootPlayer.h(32): note: 'UPlayerMove' 선언을 참조하십시오.
-    D:\Unreal Projects\MyShooting\MyShooting\Source\MyShooting\Private\ShootPlayer.cpp(13): note: 컴파일되는 함수 템플릿 인스턴스화 'TReturnType *UObject::CreateDefaultSubobject<UPlayerMove>(FName,bool)'에 대한 참조를 확인하세요.
-            with
-            [
-                TReturnType=UPlayerMove
-            ]
-D:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/Object.h(108): error C2440: 'static_cast': 'UObject *'에서 'TReturnType *'(으)로 변환할 수 없습니다.
-            with
-            [
-                TReturnType=UPlayerMove
-            ]
-    D:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/Object.h(108): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
-    [3/8] MyShooting.init.gen.cpp
-    [4/8] PlayerMove.gen.cpp
-    [5/8] ShootPlayer.gen.cpp
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073: ""D:\Program Files\Epic Games\UE_4.26\Engine\Build\BatchFiles\Build.bat" MyShootingEditor Win64 Development -Project="D:\Unreal Projects\MyShooting\MyShooting\MyShooting.uproject" -WaitMutex -FromMsBuild" 명령이 종료되었습니다(코드: 6).

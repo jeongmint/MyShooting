@@ -15,6 +15,7 @@ class MYSHOOTING_API AMyShootingGameModeBase : public AGameModeBase
 	GENERATED_BODY()
 
 public:
+
 	AMyShootingGameModeBase();
 	
 };
